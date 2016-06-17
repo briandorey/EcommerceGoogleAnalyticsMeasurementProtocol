@@ -1,11 +1,12 @@
-# EcommerceGoogleAnalyticsMeasurementProtocol
+# Ecommerce Google Analytics Measurement Protocol
 Using Google  Google Analytics Measurement Protocol with C# to send orders to Google server side
 
-Class and functions to send ecommerce transactions and items to Google Analytics using  Measurement Protocol
+Class and functions to send ecommerce transactions and items to Google Analytics using  Measurement Protocol,
 
 Usage:
  
-  GoogleMeasurementProtocol gmp = new GoogleMeasurementProtocol();
+		GoogleMeasurementProtocol gmp = new GoogleMeasurementProtocol();
+
         gmp.SendGoogleTrackingOrder("UA-000000-00", 
         "12345", 
         "0005", 
